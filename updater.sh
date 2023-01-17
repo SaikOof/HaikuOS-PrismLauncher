@@ -21,3 +21,9 @@ cmake -S src -B src/build \
 #Not using one thread causes the build to get stuck at 99%
 cmake --build src/build -j1
 cmake --install src/build
+
+mv install/bin/launcher install
+mv install/share/prismlauncher/* install/jars
+
+rmdir install/bin
+rm -rf install/share
