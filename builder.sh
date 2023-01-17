@@ -20,7 +20,7 @@ cmake -S src -B src/build \
 cmake --build src/build -j1
 cmake --install src/build
 
-mv install/bin/prismlauncher install
+mv install/bin/prismlauncher install/
 mv install/share/prismlauncher/* install/jars
 
 rmdir install/bin
