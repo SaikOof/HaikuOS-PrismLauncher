@@ -23,5 +23,5 @@ cmake --install src/build
 mv install/bin/launcher install
 mv install/share/prismlauncher/* install/jars
 
-rmdir bin
-rm -rf share
+rmdir install/bin
+rm -rf install/share
