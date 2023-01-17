@@ -1,5 +1,5 @@
-#!/bin/sh
-export DEPS="cmake coreutils gcc git openjdk14_default qt5_devel sed"
+#!/bin/bash
+export DEPS="bash cmake coreutils gcc git openjdk14_default qt5_devel sed"
 pkgman install $DEPS
 
 git clone --recursive https://github.com/PrismLauncher/PrismLauncher src
